@@ -1,9 +1,10 @@
 package Project;
-/*
-Author aesavas
+/**
+ Author aesavas
  */
 
 // Controller class controls the functioning of the program.
+import javax.swing.JOptionPane;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -38,7 +39,7 @@ public class BMIController {
 				theview.setResult(theModel.getbMIResult(), theModel.getidealKg());
 			}
 			catch(Exception e2){
-				e2.printStackTrace();
+				JOptionPane.showMessageDialog(null, "Error : Please, choose Male or Female !");
 			}
 		}
 	}

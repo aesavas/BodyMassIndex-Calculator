@@ -1,6 +1,6 @@
 package Project;
-/*
-Author aesavas
+/**
+ Author aesavas
  */
 
 // Model class has functions for calculations.

@@ -1,4 +1,7 @@
 package Project;
+/**
+Author aesavas
+ */
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -32,37 +35,21 @@ import javax.swing.JButton;
 
 import Project.BMIController.RadioButtonListener;
 
+// View class includes graphical user interface's elements.
 public class BMIView extends JFrame {
 
 	private JPanel contentPane;
 	private JComboBox<Integer> comboBoxHeight;
-	private JLabel label1;
 	private JSlider slider;
-	private JLabel label2, label3, labelwomen, labelmen;
+	private JLabel label1, label2, label3, labelwomen, labelmen;
 	private JRadioButton radioButtonMen, radioButtonWomen;
 	private ButtonGroup grup;
 	private JLabel lblCm;
 	private JButton btnCalculate;
-	// private String radioButton2;
 	private String heightValue;
 	private String select;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					BMIView frame = new BMIView();
-					frame.setTitle("Body Mass Index");
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+
 
 	/**
 	 * Create the frame.
@@ -75,80 +62,58 @@ public class BMIView extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		contentPane.setBorder(BorderFactory
-				.createTitledBorder("Eat healthy, become healthy!"));
+		contentPane.setBorder(BorderFactory.createTitledBorder("Eat healthy, become healthy!"));
 
 		label1 = new JLabel("Please, choose height  :");
-		label1.setFont(new Font("Times New Roman", Font.BOLD, 20));
-		label1.setBounds(34, 25, 269, 54);
+		label1.setFont(new Font("Times New Roman", Font.BOLD, 14));
+		label1.setBounds(34, 25, 150, 30);
 		contentPane.add(label1);
 
 		comboBoxHeight = new JComboBox<Integer>();
-		comboBoxHeight.setFont(new Font("Times New Roman", Font.BOLD, 20));
-		comboBoxHeight.setBounds(286, 25, 176, 54);
+		comboBoxHeight.setFont(new Font("Times New Roman", Font.BOLD, 14));
+		comboBoxHeight.setBounds(190, 25, 150, 30);
 		contentPane.add(comboBoxHeight);
-		for (int i = 145; i <= 210; i++) {
+		for (int i = 135; i <= 220; i++) {
 			comboBoxHeight.addItem(i);
 		}
 
-		slider = new JSlider(40, 130);
-		slider.setBounds(286, 126, 477, 79);
+		lblCm = new JLabel("cm.");
+		lblCm.setFont(new Font("Times New Roman", Font.BOLD, 14));
+		lblCm.setBounds(345, 30, 46, 14);
+		contentPane.add(lblCm);
+
+		label2 = new JLabel("Please, choose weight :");
+		label2.setFont(new Font("Times New Roman", Font.BOLD, 14));
+		label2.setBounds(34, 70, 150, 30);
+		contentPane.add(label2);
+
+		slider = new JSlider(40, 160);
+		slider.setBounds(190, 75, 350, 40);
 		slider.setMajorTickSpacing(10);
-		slider.setMinorTickSpacing(5);
 		slider.setPaintTicks(true);
 		slider.setPaintLabels(true);
 		slider.setLabelTable(slider.createStandardLabels(10));
 		contentPane.add(slider);
-		event e = new event();// MVC stiline uyuyor mu bilmiyorum. Ama bu o an
-								// slider deðiþilik yapýldýðýnda ekranda
-								// gözükmesi için
+		event e = new event();
 		slider.addChangeListener(e);
 
-		label2 = new JLabel("Please, choose weight :");
-		label2.setFont(new Font("Times New Roman", Font.BOLD, 20));
-		label2.setBounds(34, 126, 231, 72);
-		contentPane.add(label2);
 
-		label3 = new JLabel("Weight : " + slider.getValue());// Bu ilk
-																// açýldýðýnda
-																// weight
-																// yazýsýnýn boþ
-																// kalmamasý
-																// için
-		label3.setFont(new Font("Times New Roman", Font.BOLD, 16));
-		label3.setBounds(440, 216, 123, 65);
+		label3 = new JLabel("Weight : " + slider.getValue());
+		label3.setFont(new Font("Times New Roman", Font.BOLD, 14));
+		label3.setBounds(300, 100, 123, 65);
 		contentPane.add(label3);
 
 		grup = new ButtonGroup();
 
 		radioButtonMen = new JRadioButton("Male");
-
 		grup.add(radioButtonMen);
-		radioButtonMen.setFont(new Font("Times New Roman", Font.BOLD, 15));
-		radioButtonMen.setBounds(101, 337, 74, 46);
+		radioButtonMen.setFont(new Font("Times New Roman", Font.BOLD, 14));
+		radioButtonMen.setBounds(120, 150, 74, 46);
 		contentPane.add(radioButtonMen);
-
-		radioButtonWomen = new JRadioButton("Female");
-		grup.add(radioButtonWomen);
-		radioButtonWomen.setFont(new Font("Times New Roman", Font.BOLD, 15));
-		radioButtonWomen.setBounds(99, 440, 82, 36);
-		contentPane.add(radioButtonWomen);
-
 		radioButtonMen.addItemListener(new ItemListener() {
-			// Bu kýsýmlarý burada yapmam MVC stiline uyar mý bilmiyorum.
 			@Override
 			public void itemStateChanged(ItemEvent e) {
 				select = "Male";
-
-			}
-		});
-
-		radioButtonWomen.addItemListener(new ItemListener() {
-
-			@Override
-			// Bu kýsýmlarý burada yapmam MVC stiline uyar mý bilmiyorum.
-			public void itemStateChanged(ItemEvent e) {
-				select = "Female";
 
 			}
 		});
@@ -157,30 +122,40 @@ public class BMIView extends JFrame {
 		Image img = new ImageIcon(this.getClass().getResource("../images/men.png"))
 				.getImage();
 		labelmen.setIcon(new ImageIcon(img));
-		labelmen.setBounds(187, 337, 48, 54);
+		labelmen.setBounds(160, 150, 40, 40);
 		contentPane.add(labelmen);
+
+
+		radioButtonWomen = new JRadioButton("Female");
+		grup.add(radioButtonWomen);
+		radioButtonWomen.setFont(new Font("Times New Roman", Font.BOLD, 15));
+		radioButtonWomen.setBounds(350, 150, 82, 36);
+		contentPane.add(radioButtonWomen);
+		radioButtonWomen.addItemListener(new ItemListener() {
+			@Override
+			// Bu kýsýmlarý burada yapmam MVC stiline uyar mý bilmiyorum.
+			public void itemStateChanged(ItemEvent e) {
+				select = "Female";
+
+			}
+		});
 
 		labelwomen = new JLabel("");
 		Image img2 = new ImageIcon(this.getClass().getResource("../images/women.png"))
 				.getImage();
 		labelwomen.setIcon(new ImageIcon(img2));
-		labelwomen.setBounds(187, 435, 48, 54);
+		labelwomen.setBounds(410, 150, 40, 40);
 		contentPane.add(labelwomen);
 
-		lblCm = new JLabel("cm.");
-		lblCm.setFont(new Font("Times New Roman", Font.BOLD, 20));
-		lblCm.setBounds(472, 48, 46, 14);
-		contentPane.add(lblCm);
 
-		btnCalculate = new JButton("");
-		Image img3 = new ImageIcon(this.getClass().getResource("../images/scale.png"))
+
+		btnCalculate = new JButton("Calculate !");
+		Image img3 = new ImageIcon(this.getClass().getResource("../images/tarti.png"))
 				.getImage();
 		btnCalculate.setIcon(new ImageIcon(img3));
 
-		btnCalculate.setBounds(369, 350, 257, 139);
+		btnCalculate.setBounds(215, 200, 130, 40);
 		contentPane.add(btnCalculate);
-		
-
 	}
 
 	public class event implements ChangeListener {
@@ -200,11 +175,14 @@ public class BMIView extends JFrame {
 
 	public double getWeightValue() {
 		double weightValue = slider.getValue();
-		// double weightValue2 = (double)(weightValue);
-		double weightvalue = (double) weightValue;
-		return weightvalue;
+		return weightValue;
 	}
 
+	/**
+	 *
+	 * @param bmi -> Show BMI result
+	 * @param idealkg -> Indicates the required weight.
+	 */
 	public void setResult(double bmi, double idealkg) {
 		NumberFormat numberFormat = NumberFormat.getInstance();
 
@@ -241,9 +219,6 @@ public class BMIView extends JFrame {
 
 	public String radioButtonActionListener(ActionEvent ae) {
 		return ae.getActionCommand();
-
-		// radioButton2 = ae.getActionCommand();
-		// return radioButton;
 	}
 
 	public String getRadioButton() {

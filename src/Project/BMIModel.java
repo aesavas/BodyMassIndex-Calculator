@@ -1,16 +1,17 @@
 package Project;
+/*
+Author aesavas
+ */
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
+// Model class has functions for calculations.
 public class BMIModel {
 	private BMIView theview;
 	private double bMIResult = 0.0;
 	private double idealKg = 0.0;
 
 	public void calculateBMI(double weight, double height) {
-		double height2 = height / 100;
-		bMIResult = weight / (height2 * height2);
+		height = height / 100;
+		bMIResult = weight / (height * height);
 	}
 
 	public void calculateIdealWeight(double height, String select) {

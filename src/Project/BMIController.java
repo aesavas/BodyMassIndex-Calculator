@@ -21,7 +21,10 @@ public class BMIController {
 		this.theview = theview;
 		this.theview.addCalculateListener(new BMIListener());
 	}
-	
+
+	/**
+	 * This section runs the calculate button.
+	 */
 	class BMIListener implements ActionListener{
 		double weight,height,bmi,idealkg;
 		@Override

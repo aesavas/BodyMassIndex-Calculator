@@ -64,6 +64,9 @@ public class BMIView extends JFrame {
 		contentPane.setLayout(null);
 		contentPane.setBorder(BorderFactory.createTitledBorder("Eat healthy, become healthy!"));
 
+		/**
+		 * Height comboBox and height label part.
+		 */
 		label1 = new JLabel("Please, choose height  :");
 		label1.setFont(new Font("Times New Roman", Font.BOLD, 14));
 		label1.setBounds(34, 25, 150, 30);
@@ -82,6 +85,9 @@ public class BMIView extends JFrame {
 		lblCm.setBounds(345, 30, 46, 14);
 		contentPane.add(lblCm);
 
+		/**
+		 * Weight slider and weight label part
+		 */
 		label2 = new JLabel("Please, choose weight :");
 		label2.setFont(new Font("Times New Roman", Font.BOLD, 14));
 		label2.setBounds(34, 70, 150, 30);
@@ -97,7 +103,6 @@ public class BMIView extends JFrame {
 		event e = new event();
 		slider.addChangeListener(e);
 
-
 		label3 = new JLabel("Weight : " + slider.getValue());
 		label3.setFont(new Font("Times New Roman", Font.BOLD, 14));
 		label3.setBounds(300, 100, 123, 65);
@@ -105,6 +110,9 @@ public class BMIView extends JFrame {
 
 		grup = new ButtonGroup();
 
+		/**
+		 * Radiobutton and icon section for Male.
+		 */
 		radioButtonMen = new JRadioButton("Male");
 		grup.add(radioButtonMen);
 		radioButtonMen.setFont(new Font("Times New Roman", Font.BOLD, 14));
@@ -125,7 +133,9 @@ public class BMIView extends JFrame {
 		labelmen.setBounds(160, 150, 40, 40);
 		contentPane.add(labelmen);
 
-
+		/**
+		 * Radiobutton and icon section for Female.
+		 */
 		radioButtonWomen = new JRadioButton("Female");
 		grup.add(radioButtonWomen);
 		radioButtonWomen.setFont(new Font("Times New Roman", Font.BOLD, 15));
@@ -148,7 +158,9 @@ public class BMIView extends JFrame {
 		contentPane.add(labelwomen);
 
 
-
+		/**
+		 * Calculate button section
+		 */
 		btnCalculate = new JButton("Calculate !");
 		Image img3 = new ImageIcon(this.getClass().getResource("../images/tarti.png"))
 				.getImage();
@@ -158,6 +170,9 @@ public class BMIView extends JFrame {
 		contentPane.add(btnCalculate);
 	}
 
+	/**
+	 * Used to dynamically show the value selected from the slider.
+	 */
 	public class event implements ChangeListener {
 
 		@Override
@@ -168,11 +183,17 @@ public class BMIView extends JFrame {
 		}
 	}
 
+	/**
+	 * It enables other classes to reach the weight value.
+	 */
 	public double getHeightValue() {
 		heightValue = String.valueOf(comboBoxHeight.getSelectedItem());
 		return Double.parseDouble(heightValue);
 	}
 
+	/**
+	 * It enables other classes to reach the weight value.
+	 */
 	public double getWeightValue() {
 		double weightValue = slider.getValue();
 		return weightValue;
@@ -222,7 +243,6 @@ public class BMIView extends JFrame {
 	}
 
 	public String getRadioButton() {
-
 		return select;
 	}
 

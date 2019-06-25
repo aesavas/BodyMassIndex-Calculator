@@ -9,11 +9,21 @@ public class BMIModel {
 	private double bMIResult = 0.0;
 	private double idealKg = 0.0;
 
+	/**
+	 * It calculates BMI value.
+	 * @param weight
+	 * @param height
+	 */
 	public void calculateBMI(double weight, double height) {
 		height = height / 100;
 		bMIResult = weight / (height * height);
 	}
 
+	/**
+	 * It calculates Ideal Weight.
+	 * @param height
+	 * @param select
+	 */
 	public void calculateIdealWeight(double height, String select) {
 
 		if (select.equalsIgnoreCase("Male")) {

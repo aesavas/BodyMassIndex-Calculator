@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62389732-d044-4036-a850-64070b480681" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BMIProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BMIProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIController$BMIListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIController$BMIListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIController$RadioButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIController$RadioButtonListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView$event.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView$event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/ModelViewControllerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/ModelViewControllerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/images/men.png" beforeDir="false" afterPath="$PROJECT_DIR$/bin/images/men.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/images/women.png" beforeDir="false" afterPath="$PROJECT_DIR$/bin/images/women.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project/BMIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project/BMIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project/BMIModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project/BMIModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Project/BMIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project/BMIView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/ModelViewControllerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project/ModelViewControllerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/men.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/men.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/women.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/women.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -37,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Project/BMIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="60" />
+            <state relative-caret-position="-34">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,28 +34,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Project/BMIModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="179">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Project/BMIView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="182" column="22" selection-start-line="182" selection-start-column="22" selection-end-line="182" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
               <folding>
-                <element signature="e#6678#6679#0" expanded="true" />
-                <element signature="e#6713#6714#0" expanded="true" />
-                <element signature="e#6818#6819#0" expanded="true" />
-                <element signature="e#6859#6860#0" expanded="true" />
+                <element signature="e#7232#7233#0" expanded="true" />
+                <element signature="e#7135#7136#0" expanded="true" />
+                <element signature="e#7155#7156#0" expanded="true" />
+                <element signature="e#7377#7378#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,13 +89,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Project/ModelViewControllerMain.java" />
+        <option value="$PROJECT_DIR$/src/Project/BMIView.java" />
         <option value="$PROJECT_DIR$/src/Project/BMIModel.java" />
         <option value="$PROJECT_DIR$/src/Project/BMIController.java" />
-        <option value="$PROJECT_DIR$/src/Project/BMIView.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="72" />
     <option name="y" value="20" />
     <option name="width" value="1284" />
@@ -312,38 +294,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Project/BMIView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="239" lean-forward="true" selection-start-line="239" selection-end-line="239" />
+          <folding>
+            <element signature="e#7232#7233#0" expanded="true" />
+            <element signature="e#7135#7136#0" expanded="true" />
+            <element signature="e#7155#7156#0" expanded="true" />
+            <element signature="e#7377#7378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Project/BMIModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="179">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Project/BMIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="60" />
+        <state relative-caret-position="-34">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Project/BMIView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="182" column="22" selection-start-line="182" selection-start-column="22" selection-end-line="182" selection-end-column="22" />
-          <folding>
-            <element signature="e#6678#6679#0" expanded="true" />
-            <element signature="e#6713#6714#0" expanded="true" />
-            <element signature="e#6818#6819#0" expanded="true" />
-            <element signature="e#6859#6860#0" expanded="true" />
           </folding>
         </state>
       </provider>

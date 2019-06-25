@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62389732-d044-4036-a850-64070b480681" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIController$BMIListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIController$BMIListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIController$RadioButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIController$RadioButtonListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView$event.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView$event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/BMIView.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/BMIView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Project/ModelViewControllerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Project/ModelViewControllerMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/BMIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project/BMIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/BMIModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project/BMIModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project/ModelViewControllerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Project/ModelViewControllerMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="62389732-d044-4036-a850-64070b480681" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="72" />
     <option name="y" value="20" />
     <option name="width" value="1284" />
@@ -206,8 +192,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -219,7 +204,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23348695" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23348695" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
